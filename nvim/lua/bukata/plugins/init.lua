@@ -3,6 +3,13 @@ vim.g.tmux_navigator_save_on_switch = 2
 -- Do not 'wrap' around vim windows
 vim.g.tmux_navigator_no_wrap = 1
 
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- optionally enable 24-bit colour
+vim.opt.termguicolors = true
+
 return {
   {
     'christoomey/vim-tmux-navigator',
@@ -34,4 +41,15 @@ return {
       hijack_netrw_behavior = 'open_default',
     },
   },
+  --[[ {
+    'nvim-tree/nvim-tree.lua',
+    version = '*',
+    lazy = false,
+    dependencies = {
+      'nvim-tree/nvim-web-devicons',
+    },
+    config = function()
+      require('nvim-tree').setup {}
+    end,
+  }, ]]
 }
