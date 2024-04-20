@@ -1,0 +1,15 @@
+import = [
+    "~/.config/alacritty/vscode-light.toml"
+]
+live_config_reload = true 
+
+[window]
+decorations = "none"
+startup_mode = "maximized"
+
+[font]
+size = 13
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font"
+style = "Regular"
+
