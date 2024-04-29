@@ -6,6 +6,7 @@ live_config_reload = true
 [window]
 decorations = "none"
 startup_mode = "maximized"
+option_as_alt = "both"
 
 [font]
 size = 13

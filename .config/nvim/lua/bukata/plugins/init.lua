@@ -11,23 +11,25 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 return {
-  {
-    'christoomey/vim-tmux-navigator',
-    cmd = {
-      'TmuxNavigateLeft',
-      'TmuxNavigateDown',
-      'TmuxNavigateUp',
-      'TmuxNavigateRight',
-      'TmuxNavigatePrevious',
-    },
-    keys = {
-      { '<c-h>', ':TmuxNavigateLeft<cr>' },
-      { '<c-j>', ':TmuxNavigateDown<cr>' },
-      { '<c-k>', ':TmuxNavigateUp<cr>' },
-      { '<c-l>', ':TmuxNavigateRight<cr>' },
-      { '<c-\\>', ':TmuxNavigatePrevious<cr>' },
-    },
-  },
+  'norcalli/nvim-colorizer.lua',
+  -- {
+  --   'christoomey/vim-tmux-navigator',
+  --   cmd = {
+  --     'TmuxNavigateLeft',
+  --     'TmuxNavigateDown',
+  --     'TmuxNavigateUp',
+  --     'TmuxNavigateRight',
+  --     'TmuxNavigatePrevious',
+  --   },
+  --   keys = {
+  --     { '<c-h>', ':TmuxNavigateLeft<cr>' },
+  --     { '<c-j>', ':TmuxNavigateDown<cr>' },
+  --     { '<c-k>', ':TmuxNavigateUp<cr>' },
+  --     { '<c-l>', ':TmuxNavigateRight<cr>' },
+  --     { '<c-\\>', ':TmuxNavigatePrevious<cr>' },
+  --   },
+  -- },
+  { 'mrjones2014/smart-splits.nvim', lazy = false, at_edge = 'stop' },
   {
     'nvim-neo-tree/neo-tree.nvim',
     branch = 'v3.x',

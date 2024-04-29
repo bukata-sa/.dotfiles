@@ -8,15 +8,24 @@ return {
   -- 'maxmx03/solarized.nvim',
   -- 'rose-pine/neovim',
   -- 'bukata-sa/vscode.nvim',
+  --
   -- dev = true,
-  dir = '~/Projects/personal/vscode.nvim',
+  --  dir = '~/Projects/personal/vscode.nvim',
+  --priority = 1000, -- Make sure to load this before all the other start plugins.
+  'catppuccin/nvim',
+  name = 'catppuccin',
   priority = 1000, -- Make sure to load this before all the other start plugins.
   init = function()
     -- Load the colorscheme here.
     -- Like many other themes, this one has different styles, and you could load
     -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-    vim.cmd.colorscheme 'vscode'
+
+    -- vim.cmd.colorscheme 'vscode'
+
+    vim.cmd.colorscheme 'catppuccin-frappe'
+
     -- You can configure highlights by doing something like:
     -- vim.cmd.hi 'Comment gui=none'
   end,
+  --
 }
