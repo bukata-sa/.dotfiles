@@ -1,0 +1,4 @@
+let mapleader = " "
+
+map gd <Action>(GotoDeclaration)
+map <leader>fu <Action>(FindUsages)
