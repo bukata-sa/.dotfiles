@@ -7,7 +7,7 @@ return {
   -- 'folke/tokyonight.nvim',
   -- 'maxmx03/solarized.nvim',
   -- 'rose-pine/neovim',
-  -- 'bukata-sa/vscode.nvim',
+  -- 'Mofiqul/vscode.nvim',
   --
   -- dev = true,
   --  dir = '~/Projects/personal/vscode.nvim',
@@ -23,7 +23,7 @@ return {
     -- vim.cmd.colorscheme 'vscode'
 
     vim.cmd.colorscheme 'catppuccin-frappe'
-
+    -- vim.cmd.colorscheme 'vscode'
     -- You can configure highlights by doing something like:
     -- vim.cmd.hi 'Comment gui=none'
   end,

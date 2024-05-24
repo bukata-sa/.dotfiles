@@ -146,6 +146,8 @@ return { -- LSP Configuration & Plugins
       -- But for many setups, the LSP (`tsserver`) will work just fine
       -- tsserver = {},
       --
+      gopls = {},
+      -- solidity_ls = {},
       solidity_ls_nomicfoundation = {},
       lua_ls = {
         -- cmd = {...},

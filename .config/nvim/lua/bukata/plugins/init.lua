@@ -42,6 +42,14 @@ return {
     opts = {
       hijack_netrw_behavior = 'open_default',
     },
+    config = function()
+      require('neo-tree').setup {
+        window = {
+          ['S'] = 'open_split',
+          ['s'] = 'open_vsplit',
+        },
+      }
+    end,
   },
   --[[ {
     'nvim-tree/nvim-tree.lua',

@@ -1,5 +1,6 @@
 import = [
-    "~/.config/alacritty/vscode-light.toml"
+"~/.config/alacritty/catppuccin-frappe.toml"
+    # "~/.config/alacritty/vscode-dark.toml"
 ]
 live_config_reload = true 
 
@@ -13,4 +14,10 @@ size = 13
 [font.normal]
 family = "JetBrainsMonoNL Nerd Font"
 style = "Regular"
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
 

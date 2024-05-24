@@ -6,3 +6,10 @@ vim.keymap.set('v', '<A-j>', "<cmd>'<,'>m '<+1<CR>gv=gv", { desc = 'Move selecti
 vim.keymap.set('v', '<A-k>', "<cmd>'<,'>m '>-2<CR>gv=gv", { desc = 'Move selection up' })
 vim.keymap.set('i', '<A-k>', '<Esc><cmd>m .-2<CR>==gi', { desc = 'Move line up' })
 vim.keymap.set('i', '<A-j>', '<Esc><cmd>m .+1<CR>==gi', { desc = 'Move line down' })
+
+-- vim.keymap.set('i', '{<CR>', '{<CR>}<Esc>ko<tab>', { noremap = true })
+-- vim.keymap.set('i', '(', '()', { noremap = true })
+-- vim.keymap.set('i', '{<CR>', '{<CR>}<Esc>ko<tab>', { noremap = true })
+-- vim.keymap.set('i', '{', '{}', { noremap = true })
+-- vim.keymap.set('i', '[<CR>', '[<CR>]<Esc>ko<tab>', { noremap = true })
+-- vim.keymap.set('i', '[', '[]', { noremap = true })

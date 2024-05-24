@@ -3,7 +3,7 @@ local mux = wezterm.mux
 local config = wezterm.config_builder()
 
 -- config.color_scheme = "Vs Code Light+ (Gogh)"
-config.color_scheme = "Catppuccin Frappé (Gogh)"
+config.color_scheme = "Catppuccin Mocha (Gogh)"
 -- config.color_scheme = 'Catppuccin Latte'
 
 config.font_size = 13.0
