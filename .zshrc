@@ -8,3 +8,5 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 #===============================================================
+
+export GPG_TTY=$(tty)
